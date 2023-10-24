@@ -1,4 +1,3 @@
-
 name: Deploy Theme
 on:
   push:
@@ -13,5 +12,5 @@ jobs:
       - name: Deploy Ghost Theme
         uses: TryGhost/action-deploy-theme@v1
         with:
-          api-url: ${{ secrets.GHOST_ADMIN_URL }}
+          api-url: ${{ secrets.GHOST_URL_API }}
           api-key: ${{ secrets.GHOST_ADMIN_API }}
