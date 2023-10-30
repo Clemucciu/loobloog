@@ -3,12 +3,6 @@
 	<include url="skin/vtourskin.xml" />
 
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
-	<!--<autorotate enabled="true"
-				waittime="0"
-            	accel="5.0"
-				speed="50.0"
-				/>
-	-->
 	<skin_settings maps="false"
 	               maps_type="google"
 	               maps_bing_api_key=""
@@ -103,10 +97,6 @@
 			<cube url="panos/Entree_Exterieur.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
 		</image>
 
-		
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="37.481" atv="19.015" linkedscene="scene_escalier_bas" linkedscene_lookat="52.35,2.99,120.0" linkedscene_hoffset="-28.71" use3dtransition="true" />
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="98.362" atv="8.092" linkedscene="scene_courext" linkedscene_hoffset="0.0" use3dtransition="true" />
-
 	</scene>
 
 	<scene name="scene_Escalier_Bas" title="Escalier Bas" onstart="" thumburl="panos/Escalier_Bas.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
@@ -120,8 +110,6 @@
 		<image>
 			<cube url="panos/Escalier_Bas.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
 		</image>
-
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-171.364" atv="10.458" linkedscene="scene_entree_exterieur" linkedscene_lookat="52.35,2.99,120.0" linkedscene_hoffset="388.71" use3dtransition="true" />
 
 	</scene>
 
